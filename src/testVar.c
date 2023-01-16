@@ -12,8 +12,9 @@ int main(void){
         puts("Erreur ! Le fork a echoue :'(");
     case 0:
         puts("Je suis le fils");
-        return getpid();
+        process_id =getpid();
     default:
         waitpid()
-    }
+    };
+    return 0;
 }
