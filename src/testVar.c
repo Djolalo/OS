@@ -14,7 +14,7 @@ int main(void){
         puts("Je suis le fils");
         process_id =getpid();
     default:
-        waitpid()
+        waitpid();
     };
     return 0;
 }
